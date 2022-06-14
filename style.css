@@ -1,0 +1,113 @@
+header {
+	background-color: green;
+	height: 40px;
+}
+
+.myname {
+	position: relative;
+	width: 20%;
+	height: 40px;
+	background-color: darkgreen;
+	left: 70%;
+}
+
+.myname  p {
+	margin: 0;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);	
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+	height: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+    left: -50%;
+    float: left;
+    margin: 10px;
+
+    font-weight: bold;
+
+}
+
+.banner {
+	height: 600px;	
+	background-image: url(banner.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1,h2,h3,h4{
+	color: white;
+}
+
+.banner h1,h4{
+	position: relative;
+	left: 60%;
+	top: 20%;
+}
+#ban {
+	position: relative;
+	left: 60%;
+	top: 25%;
+}
+
+button{
+	color: white;
+	background-color: black;
+	border: 2px solid white;
+	padding: 3px;
+	font-size: 18px;
+	border-radius: 7px;
+}
+
+.diya {
+	position: relative;
+	background-image: url(1.jpg);
+	height: 150px;
+	left: 
+}
+.kava {
+	position: relative;
+	float: left;
+}
+
+
+/*img{
+	float: left;
+}
+*/
+.block{
+	height: 300px;
+	width: 25%;
+	background-color: black;
+	text-align: center;
+
+}
+.png {
+	height: 300px;
+	width: 25%;
+}
+.span{
+	color: white;
+	padding: 2%;
+	
+}
+.flexbox{
+	display: flex;
+}
